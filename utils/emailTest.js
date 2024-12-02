@@ -1,12 +1,12 @@
 import nodemailer from "nodemailer";
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.qq.com",
+  host: "smtp-server",
   port: 465,
   secure: true, // upgrade later with STARTTLS
   auth: {
-    user: "907785012@qq.com",
-    pass: "wavqccnvprokbfbh",
+    user: "mail",
+    pass: "password",
   },
 });
 
