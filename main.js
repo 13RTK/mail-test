@@ -1,6 +1,6 @@
 import { signup } from "./services/apiAuth.js";
 
-const email = "fswwdza@gmail.com";
+const email = "email";
 const password = "123456";
 
 const data = await signup(email, password);
